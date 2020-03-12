@@ -3,3 +3,12 @@ let playlist = {
   'Queen': 'Bohemian Rhapsody',
   'The Who': 'Babba O\'Riley'
 };
+
+function updatePlaylist(playlist, artistsName, songTitle) {
+	playlist[artistsName] = songTitle;
+	return playlist;
+}
+
+function removeFromPlaylist() {
+	return
+}
