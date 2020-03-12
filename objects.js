@@ -5,11 +5,11 @@ let playlist = {
 };
 
 function updatePlaylist(playlist, artistsName, songTitle) {
-	playlist['artistsName'] = 'songTitle';
+	playlist[artistsName] = songTitle;
 	return playlist;
 }
 
 function removeFromPlaylist(playlist, artistsName) {
-  playlist['artistsName'] = 'songTitle';
+  playlist.artistsName = songTitle;
 	return playlist;
 }
